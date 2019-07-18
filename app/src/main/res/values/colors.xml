@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#FF02D39D</color>-->
+    <color name="colorPrimary">#335A7C</color>
+    <color name="colorPrimaryDark">#25425c</color>
+    <color name="colorPrimaryDark2">#F54807</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--<color name="colorAccent">#90000000</color>-->
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen2">#14a895</color>
+
+    <!-- color timbar exoplayer view -->
+    <color name="dot_light_screen2">#8cf9eb</color>
+
+
+
+    <!-- start activity -->
+    <color name="colorBackgorudStart">#C8E1E2</color>
+
+    <!-- rating bar -->
+    <color name="duskYellow">#FF9800</color>
+    <color name="lightGrey">#D6D4D4</color>
+    <!-- color of chartbar -->
+    <color name="colorRateFive">#4CAF50</color>
+    <color name="colorRateFour">#8BC34A</color>
+    <color name="colorRateThree">#FFEB3B</color>
+    <color name="colorRateTwo">#FF9800</color>
+    <color name="colorRateOne">#F44336</color>
+
+    <!-- color if icon download in complete status -->
+    <color name="colorCompleteDownload">#494848</color>
+    <color name="colorNotCompleteDownload">#A3A2A2</color>
+
+    <color name="colorWhite">#FFF</color>
+
+
+    <!--color text view -->
+    <color name="colorPublicText">#5C5656</color>
+    <color name="colorBoldText">#333131</color>
+
+    <color name="colorSormei">#25425c</color>
+    <color name="colorItemNavBar">#3C6D96</color>
+    <color name="colorMarjani">#FCA281</color>
+    <!--<color name="colorMarjani">#F8B69E</color>-->
+
+    <!-- exo player -->
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorBlackTransparent">#CC000000</color>
+    <color name="colorBlackAlpha90">#90000000</color>
+    <color name="colorBlackAlpha80">#80000000</color>
+    <color name="colorBlackAlpha70">#70000000</color>
+    <color name="colorBlackAlpha60">#60000000</color>
+    <color name="colorBlackAlpha50">#50000000</color>
+    <color name="colorBlackAlpha40">#40000000</color>
+    <color name="colorBlackAlpha30">#30000000</color>
+    <color name="colorBlackAlpha20">#20000000</color>
+    <color name="colorBlackAlpha10">#10000000</color>
+    <color name="colorBlack">#000000</color>
+
+    <!-- shimmer background -->
+    <color name="background">#dddddd</color>
+
+    <color name="colorItemBottomNav">#838282</color>
+    <color name="colorRippleBottomNav">#F5F0F0</color>
+
+    <!-- transparent status bar -->
+    <color name="colorTransparentStatusBar">#F54807</color>
+
+    <!-- search fragment -->
+    <color name="material_light_active_icon">#8A000000</color>
+    <color name="material_ripple_light">#1F000000</color>
+    <color name="divider_color">#1F000000</color>
+    <color name="material_light_hint_text">#61000000</color>
+
+
+    <color name="colorBackBottomNav">#F9F9F9</color>
+
+    <!-- developer:
+        maryam kazemi
+        mary8shtr@gmail.com
+                            -->
+</resources>
+

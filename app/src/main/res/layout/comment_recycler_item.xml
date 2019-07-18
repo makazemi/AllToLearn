@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/padding_10"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            android:theme="@style/RatingBar"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:rating="3.4"/>
+        <TextView
+            android:id="@+id/txtComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/ratingBar"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:maxLines="2"
+            android:text="دوره ی بسیار عالی بود. من واقعا از تدریس استاد لذت بردم. منتظر دوره های بعدی نیز می باشم."/>
+        <TextView
+            android:id="@+id/txtAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtComment"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:text="زهرا بیات" />
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtComment"
+            android:layout_toLeftOf="@+id/txtAuthor"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="۳ روز پیش"/>
+    </RelativeLayout>

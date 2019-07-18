@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/accountItem"
+        android:title="@string/txt_title_toolbar_account"
+        android:icon="@drawable/ic_account"
+        app:showAsAction="ifRoom"
+        android:enabled="true"/>
+    <item android:id="@+id/searchItem"
+        android:title="@string/search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom"
+        android:enabled="true"/>
+    <item android:id="@+id/myCourseItem"
+        android:title="@string/my_course_title_toolbar"
+        android:icon="@drawable/ic_my_course"
+        app:showAsAction="ifRoom"
+        android:enabled="true"/>
+    <item android:id="@+id/homeItem"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="ifRoom"
+        android:enabled="true"/>
+    <!--<item android:id="@+id/favoritItem"-->
+        <!--android:title="مورد علاقه"-->
+        <!--android:icon="@drawable/ic_favorite"/>-->
+
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "264441438061",
+    "firebase_url": "https://parsclass-57841.firebaseio.com",
+    "project_id": "parsclass-57841",
+    "storage_bucket": "parsclass-57841.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264441438061:android:bfb8f141b020fe7f",
+        "android_client_info": {
+          "package_name": "com.parsclass.android.alltolearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264441438061-b4168dij4j31ns2is1bpjqrq8vr4n6gf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6hYXGLqI3UagJZJLcd5M0DrLddWygFbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264441438061-b4168dij4j31ns2is1bpjqrq8vr4n6gf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

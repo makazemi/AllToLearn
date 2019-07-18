@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@+id/coordinatorLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.SignEmailFragment"
+    android:background="@drawable/login_background_color"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/logo_login"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgLogo"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/username_text_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edt"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/margin_edge"
+                android:layout_marginStart="@dimen/margin_edge"
+                >
+
+                <EditText
+                    android:id="@+id/edtUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:ems="10"
+                    android:hint="@string/username"
+                    android:inputType="textEmailAddress"
+                    android:background="@drawable/background_edit_text"
+                    android:paddingLeft="10dp"
+                    android:textColor="#fff"
+                    android:gravity="left|center_vertical"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/password_text_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edt"
+                android:layout_below="@+id/username_text_input_layout"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="@dimen/margin_edge"
+                android:layout_marginStart="@dimen/margin_edge">
+
+                <EditText
+                    android:id="@+id/edtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:ems="10"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:background="@drawable/background_edit_text"
+                    android:paddingLeft="10dp"
+                    android:textColor="#fff"
+                    android:gravity="left|center_vertical"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edt"
+                android:layout_below="@+id/password_text_input_layout"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/margin_edge"
+                android:layout_marginEnd="@dimen/margin_edge"
+                android:layout_marginTop="30dp"
+                android:text="@string/login"
+                android:background="@drawable/background_login_button"
+                style="@style/TextViewButton"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:textAllCaps="false"
+                />
+            <TextView
+                android:id="@+id/txtForgetPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnLogin"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="@string/forget_password"
+                android:textColor="@color/colorWhite"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"/>
+            <TextView
+                android:id="@+id/txtRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtForgetPassword"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:text="@string/not_register_yet"
+                android:textColor="@color/colorWhite"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"/>
+
+
+        </LinearLayout>
+
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:indicatorName="BallSpinFadeLoaderIndicator"
+            app:indicatorColor="@color/lightGrey"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

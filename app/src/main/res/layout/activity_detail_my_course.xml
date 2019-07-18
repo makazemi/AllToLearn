@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tabanim_maincontent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/flContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/main_media_frame"
+                android:layout_width="match_parent"
+                android:layout_height="180dp">
+                <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:src="@drawable/img_itm_1_start_viewpager"-->
+                <!--android:layout_centerInParent="true"/>-->
+
+                <com.google.android.exoplayer2.ui.PlayerView
+                    android:id="@+id/player_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/colorBlack">
+
+                    <ImageView
+                        android:id="@+id/img_background_player"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.5"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/img_itm_1_start_viewpager"
+                        android:visibility="gone" />
+
+                    <com.wang.avi.AVLoadingIndicatorView
+                        android:id="@+id/progress_bar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        app:indicatorName="LineSpinFadeLoaderIndicator"
+                        app:indicatorColor="@color/colorWhite"
+                        android:visibility="visible" />
+
+                    <com.andexert.library.RippleView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="-10dp">
+                    <Button
+                        android:id="@+id/btn_open_doc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="openDocOnclick"
+                        android:text="@string/label_btn_open_doc"
+                        android:textColor="#fff"
+                        android:background="@drawable/background_button"
+                        android:textAllCaps="false"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="10dp"
+                        android:visibility="gone" />
+                    </com.andexert.library.RippleView>
+
+                    <TextView
+                        android:id="@+id/txt_not_internet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/no_connection_internet"
+                        android:textColor="@color/colorWhite"
+                        android:visibility="gone" />
+
+                </com.google.android.exoplayer2.ui.PlayerView>
+
+            </FrameLayout>
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:id="@+id/coordinatorLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/main_media_frame">
+
+                <com.google.android.material.appbar.AppBarLayout
+                    android:id="@+id/app_bar_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorWhite"
+                    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:background="#ffffff"
+                        android:gravity="right"
+                        android:orientation="vertical"
+                        app:layout_scrollFlags="scroll|enterAlways|snap">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                        <TextView
+                            android:id="@+id/txtTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_margin="10dp"
+                            android:gravity="right"
+                            android:text="عنوان دوره دوره دورهعنوان دوره دوره دورهعنوان دوره دوره دورهعنوان دوره دوره دورهعنوان دوره دوره دورهعنوان دوره دوره دوره "
+                            android:textColor="#000000"
+                            android:textSize="17dp" />
+
+                        <TextView
+                            android:id="@+id/txtNameInstructor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_below="@+id/txtTitle"
+                            android:text="علیرضا عزیزی"
+                            android:textColor="#000000"
+                            android:textSize="12dp"
+                            />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <com.google.android.material.tabs.TabLayout
+                        android:id="@+id/tabLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        app:layout_collapseMode="pin"
+                        app:tabIndicatorColor="@color/colorMarjani"
+                        app:tabSelectedTextColor="@color/colorBoldText"
+                        app:tabTextColor="@color/colorPublicText"
+                       />
+
+                </com.google.android.material.appbar.AppBarLayout>
+
+                <!--<com.wang.avi.AVLoadingIndicatorView-->
+                    <!--android:id="@+id/progressBar"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--app:indicatorName="BallSpinFadeLoaderIndicator"-->
+                    <!--app:indicatorColor="@color/lightGrey"-->
+                    <!--android:visibility="visible" />-->
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+</RelativeLayout>

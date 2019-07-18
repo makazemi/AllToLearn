@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="dots_height">30dp</dimen>
+
+    <dimen name="dots_margin_bottom">20dp</dimen>
+
+    <dimen name="img_width_height">120dp</dimen>
+
+    <dimen name="slide_title">30dp</dimen>
+
+    <dimen name="slide_desc">16dp</dimen>
+
+    <dimen name="desc_padding">40dp</dimen>
+
+    <!-- shimmer -->
+
+
+    <dimen name="activityPadding">20dp</dimen>
+
+    <dimen name="placeholderWidthImage">150dp</dimen>
+
+    <dimen name="placeholderHeightImage">150dp</dimen>
+
+    <dimen name="placeholderTextHeight">8dp</dimen>
+
+    <dimen name="padding_10">10dp</dimen>
+
+    <!-- height edit text sign in -->
+    <dimen name="height_edt">50dp</dimen>
+    <dimen name="margin_edge">40dp</dimen>
+
+
+    <dimen name="item_list_horizontal_margin">10dp</dimen>
+
+</resources>

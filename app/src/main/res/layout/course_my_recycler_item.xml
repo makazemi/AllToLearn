@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!--<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="150dp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--app:cardCornerRadius="15dp">-->
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="165dp"
+    android:paddingBottom="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+            <ImageView
+                android:id="@+id/imgCourse"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:scaleType="centerCrop"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:id="@+id/txtTitleCourse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/imgCourse"
+                android:text="آموزش برنامه نویسی اندروید"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/txtInstructor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTitleCourse"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_toEndOf="@+id/imgCourse"
+                android:text="علیرضا عزیزی" />
+
+            <ProgressBar
+                android:id="@+id/progressBarComplete"
+                style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+                android:progressDrawable="@drawable/chart_bar_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtInstructor"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_toEndOf="@+id/imgCourse"
+                android:max="100"
+                android:progress="10"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/txtProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/progressBarComplete"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_toEndOf="@+id/imgCourse"
+                android:text="@string/label_start_course" />
+        </RelativeLayout>
+
+
+    <!--</android.support.v7.widget.CardView>-->

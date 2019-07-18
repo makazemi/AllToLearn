@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtLabelDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/label_title_dialog_sort"
+        android:textSize="20sp"/>
+
+    <RadioGroup
+        android:id="@+id/radios"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLabelDialog"
+        android:inputType="text"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        >
+        <RadioButton
+            android:id="@+id/most_visited"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="@string/most_visited"
+            android:textSize="16sp"
+            android:paddingStart="30dp"/>
+        <RadioButton
+            android:id="@+id/best_selling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="@string/best_selling"
+            android:textSize="16sp"
+            android:paddingStart="30dp"/>
+        <RadioButton
+            android:id="@+id/newest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="@string/newest"
+            android:textSize="16sp"
+            android:paddingStart="30dp" />
+        <RadioButton
+            android:id="@+id/Low_to_high"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="@string/from_low_to_high_price"
+            android:textSize="16sp"
+            android:paddingStart="30dp"/>
+        <RadioButton
+            android:id="@+id/high_to_low"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="@string/from_high_to_low_price"
+            android:textSize="16sp"
+            android:paddingStart="30dp" />
+    </RadioGroup>
+
+</RelativeLayout>

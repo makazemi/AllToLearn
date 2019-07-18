@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:fitsSystemWindows="true">
+        <!--android:background="@color/colorSormei">-->
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:contentScrim="@android:color/transparent"
+            app:expandedTitleMarginEnd="48dp"
+            app:expandedTitleMarginStart="64dp"
+            app:titleEnabled="false">
+            <!--<FrameLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:fitsSystemWindows="true"
+                app:layout_collapseMode="parallax"
+                android:src="@drawable/gradient_profile_page"/>
+
+                <TextView
+                    android:id="@+id/txtName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="مریم کاظمی"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+            <!--</FrameLayout>-->
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+                <TextView
+                    android:id="@+id/toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginEnd="20dp"
+                    android:text="@string/txt_title_toolbar_account"
+                    android:textColor="#fff"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/ViewInstructor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginStart="10dp"
+                    android:visibility="visible">
+
+                    <com.andexert.library.RippleView
+                        android:id="@+id/rippleViewBuy"
+                        rv_centered="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:padding="10dp">
+                        <!--android:layout_marginLeft="15dp"-->
+                        <!--android:layout_marginTop="15dp"-->
+                        <!--android:layout_marginRight="15dp"-->
+                        <!--&gt;-->
+                    <Button
+                        android:id="@+id/txtBeInstructor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_become_instructor"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:background="@drawable/background_button"
+                        android:textAllCaps="false"/>
+                    </com.andexert.library.RippleView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/ViewSetting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ViewInstructor"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:visibility="visible"
+                    android:padding="10dp"
+                    android:background="@drawable/custom_card_view_layout">
+
+                    <TextView
+                        android:id="@+id/txtPreferences"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/setting" />
+
+                    <TextView
+                        android:id="@+id/txtDSD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtPreferences"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/download_in_sd_card" />
+
+                    <Switch
+                        android:id="@+id/switchDSD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtPreferences"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginTop="20dp" />
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtChooseLang"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_below="@+id/txtDSD"-->
+                        <!--android:layout_marginTop="20dp"-->
+                        <!--android:layout_marginStart="10dp"-->
+                        <!--android:background="?attr/selectableItemBackground"-->
+                        <!--android:clickable="true"-->
+                        <!--android:text="@string/change_lang"/>-->
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/ViewPolicy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ViewSetting"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="70dp"
+                    android:visibility="visible"
+                    android:background="@drawable/custom_card_view_layout"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/txtShareApp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/share_parsclass"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true"/>
+
+                    <TextView
+                        android:id="@+id/txtPrivacy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtShareApp"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/view_privacy_policy"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true"/>
+
+                    <TextView
+                        android:id="@+id/txtTermOfUse"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtPrivacy"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/terms_of_use"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true"/>
+
+                    <TextView
+                        android:id="@+id/txtIntellectual"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtTermOfUse"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/view_intellectual"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true"/>
+                    <TextView
+                        android:id="@+id/txtChooseLang"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtIntellectual"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="10dp"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:text="@string/change_lang"/>
+
+                    <TextView
+                        android:id="@+id/txtSign"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtChooseLang"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/txt_sign_in"
+                        android:gravity="center"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true"/>
+
+                    <TextView
+                        android:id="@+id/txtVersion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtSign"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="20dp"
+                        android:text="ParsClass v1.1" />
+                </RelativeLayout>
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgAvatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img_instructor"
+        app:layout_anchor="@id/app_bar_layout"
+        app:layout_anchorGravity="bottom|center"
+        android:scaleType="centerCrop"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/colorTransparent"
+        />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+<!--</ScrollView>-->

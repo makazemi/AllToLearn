@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listTitleCategory">
+        <item>کامپوتر</item>
+        <item>آشپزی</item>
+        <item>هنر</item>
+        <item>بازاریابی</item>
+        <item>سبک زندگی</item>
+        <item>سلامتی</item>
+        <item>موسیقی</item>
+        <item>عکاسی</item>
+    </string-array>
+
+    <string-array name="splash_text">
+        <item>@string/academy</item>
+        <item>@string/title_share_text_course</item>
+    </string-array>
+</resources>

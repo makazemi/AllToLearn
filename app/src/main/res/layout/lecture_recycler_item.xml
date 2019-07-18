@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <!--android:layout_marginStart="15dp"-->
+    <!--android:layout_marginEnd="15dp"-->
+
+    <!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="70dp"-->
+    <!--android:layout_marginBottom="8dp"-->
+    <!--android:layout_marginTop="8dp">-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        android:background="@drawable/backgroud_lecture_item">
+
+        <TextView
+            android:id="@+id/txtNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:text="1" />
+
+        <!--<com.airbnb.lottie.LottieAnimationView-->
+        <!--android:id="@+id/animation_playing"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_marginEnd="15dp"-->
+        <!--android:layout_toStartOf="@+id/txtTitleLecture"-->
+        <!--android:visibility="visible"-->
+        <!--app:lottie_autoPlay="true"-->
+        <!--app:lottie_fileName="animation/playing_animation.json"-->
+        <!--app:lottie_loop="true" />-->
+        <TextView
+            android:id="@+id/txtTitleLecture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_toLeftOf="@+id/txtNumber"
+            android:text="کاربرد یادگیری ماشین" />
+
+        <TextView
+            android:id="@+id/txtTypeMedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTitleLecture"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="40dp"
+            android:layout_toLeftOf="@+id/txtNumber"
+            android:text="ویدیو" />
+
+        <TextView
+            android:id="@+id/txtDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTitleLecture"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/txtTypeMedia"
+            android:text="3:22 دقیقه" />
+
+        <TextView
+            android:id="@+id/txtPreview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="@string/txt_preview_item"
+            android:textColor="@color/dot_dark_screen2"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imgDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgCompleted"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_download"
+            android:visibility="gone"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+
+        <ImageView
+            android:id="@+id/imgCompleted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_completed_mark"
+            android:visibility="gone" />
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/progressBar"
+            style="@style/AVLoadingIndicatorView.Small"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/imgCompleted"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            app:indicatorColor="@color/colorSormei"
+            app:indicatorName="BallClipRotateIndicator"
+            />
+        <!--<ProgressBar-->
+        <!--android:id="@+id/progressBar"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_marginLeft="15dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_below="@+id/imgCompleted"-->
+        <!--android:visibility="gone"/>-->
+
+    </RelativeLayout>
+    <!--</FrameLayout>-->
+
+</androidx.cardview.widget.CardView>

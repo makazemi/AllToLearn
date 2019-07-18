@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.StartActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="ltr">
+        </androidx.viewpager.widget.ViewPager>
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/Indicator"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layoutDirection="ltr"
+            app:ci_drawable="@drawable/indicator_color"
+            />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/select_lang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="@dimen/padding_10"
+        android:src="@drawable/ic_language"
+        android:onClick="changeLang"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/langauge"
+        android:textColor="#fff"
+        android:textSize="13sp"
+        android:onClick="changeLang"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+        <!--<com.andexert.library.RippleView-->
+            <!--android:id="@+id/rippleViewBrowse"-->
+            <!--rv_centered="true"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight=".5"-->
+            <!--android:layout_marginStart="15dp"-->
+            <!--android:layout_marginBottom="25dp"-->
+            <!--android:layout_marginEnd="15dp">-->
+
+        <Button
+            android:id="@+id/btnBrowse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_public_button"
+            android:text="@string/btn_browse"
+            android:textColor="#fff"
+            android:onClick="browse"
+            android:textAllCaps="false"
+            android:layout_weight=".5"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginEnd="15dp"
+            />
+            <!--android:layout_weight=".5"-->
+            <!--android:layout_marginStart="15dp"-->
+            <!--android:layout_marginBottom="25dp"-->
+            <!--android:layout_marginEnd="15dp"-->
+        <!--</com.andexert.library.RippleView>-->
+
+        <!--<com.andexert.library.RippleView-->
+            <!--android:id="@+id/rippleViewSign"-->
+            <!--rv_centered="true"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight=".5"-->
+            <!--android:layout_marginStart="15dp"-->
+            <!--android:layout_marginBottom="25dp"-->
+            <!--android:layout_marginEnd="15dp">-->
+
+        <Button
+            android:id="@+id/btnSing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_public_button"
+            android:text="@string/btn_sign"
+            android:textColor="#fff"
+            android:onClick="sign"
+            android:textAllCaps="false"
+            android:layout_weight=".5"
+            android:layout_marginBottom="25dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            />
+            <!--android:foreground="?attr/selectableItemBackgroundBorderless"-->
+            <!--android:clickable="true"-->
+
+            <!--android:layout_weight=".5"-->
+            <!--android:layout_marginBottom="25dp"-->
+            <!--android:layout_marginEnd="15dp"-->
+        <!--</com.andexert.library.RippleView>-->
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,232 @@
+<resources>
+    <string name="app_name">ParsClass</string>
+
+
+
+    <string name="start">start</string>
+
+
+    <!-- Start Activity -->
+    <string name="btn_browse">Browse</string>
+    <string name="btn_sign">login/register</string>
+    <string name="title_item_1">Take Video Courses</string>
+    <string name="desc_item_1">From cooking to coding and everything in between</string>
+    <string name="langauge">English</string>
+    <string-array name="select_lang">
+        <item>فارسی</item>
+        <item>English</item>
+    </string-array>
+    <string name="select_lang_title">Select Language</string>
+
+    <!-- Home Fragment-->
+    <string name="category_title">categories</string>
+    <string name="see_all">see all</string>
+    <string name="home">Home</string>
+    <string name="popular_course">Popular Course</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="temp">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </string>
+    <!-- detail course fragment -->
+    <string name="txt_label_section">بخش</string>
+    <string name="txt_preview_item">preview</string>
+    <string name="txt_show_preview_video">Preview This Course</string>
+    <string name="btn_buy">Buy Course</string>
+    <string name="btn_add_favorit">Add to Favorite</string>
+    <string name="txt_title_info_course">This Course Includes</string>
+    <string name="txt_title_what_learn">What Will I Learn?</string>
+    <string name="txt_show_more">show more</string>
+    <string name="txt_show_less">show less</string>
+    <string name="txt_about_instructor">
+        لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن در آن قرار گیرد چگونه به نظر می‌رسد و قلم‌ها و اندازه‌بندی‌ها چگونه در نظر گرفته شده‌است. از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند و در همان حال کار آنها به نوعی وابسته به متن می‌باشد آنها با استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن در آن قرار گیرد چگونه به نظر می‌رسد و قلم‌ها و اندازه‌بندی‌ها چگونه در نظر گرفته شده‌است. از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند و در همان حال کار آنها به نوعی وابسته به متن می‌باشد آنها با استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.
+        لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن در آن قرار گیرد چگونه به نظر می‌رسد و قلم‌ها و اندازه‌بندی‌ها چگونه در نظر گرفته شده‌است. از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند و در همان حال کار آنها به نوعی وابسته به متن می‌باشد آنها با استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.
+        لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن در آن قرار گیرد چگونه به نظر می‌رسد و قلم‌ها و اندازه‌بندی‌ها چگونه در نظر گرفته شده‌است. از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند و در همان حال کار آنها به نوعی وابسته به متن می‌باشد آنها با استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.
+    </string>
+    <string name="txt_description_course">
+        لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن در آن قرار گیرد چگونه به نظر می‌رسد و قلم‌ها و اندازه‌بندی‌ها چگونه در نظر گرفته شده‌است. از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند و در همان حال کار آنها به نوعی وابسته به متن می‌باشد آنها با استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.
+        لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن در آن قرار گیرد چگونه به نظر می‌رسد و قلم‌ها و اندازه‌بندی‌ها چگونه در نظر گرفته شده‌است. از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند و در همان حال کار آنها به نوعی وابسته به متن می‌باشد آنها با استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.
+        لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن در آن قرار گیرد چگونه به نظر می‌رسد و قلم‌ها و اندازه‌بندی‌ها چگونه در نظر گرفته شده‌است. از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند و در همان حال کار آنها به نوعی وابسته به متن می‌باشد آنها با استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.    </string>
+    <string name="txt_requirements">Requirements</string>
+    <string name="txt_student_also_viewed">Students also Viewed</string>
+    <string name="txt_title_curriculum">Curriculum</string>
+    <string name="txt_show_more_comments">See More Reviews</string>
+    <string name="txt_title_desc_course">Description</string>
+    <string name="txt_label_enrolled">Enrolled</string>
+    <string name="label_hour">hours</string>
+    <string name="label_min">minute</string>
+    <string name="txt_and">and</string>
+    <string name="txt_label_instructor">Created by</string>
+    <string name="last_update_course">Updated</string>
+    <string name="txt_free">Free</string>
+    <string name="number_enroll">Enrolled</string>
+    <string name="space">\u0020</string>
+    <string name="label_instructor">Instructor</string>
+    <string name="label_off">٪ off - </string>
+    <string name="label_remain_days">left at this price!</string>
+    <string name="label_btn_enroll">Enroll</string>
+    <string name="open_parentheses">)</string>
+    <string name="close_parentheses">(</string>
+    <string name="label_duration">درس مجموعا (</string>
+    <string name="txt_lecture">Lectures</string>
+    <string name="txt_generally">Total</string>
+    <string name="label_avg_rate">average rating</string>
+    <string name="title_alert_dialog">Alert</string>
+    <string name="label_student_feedback">Student Feedback</string>
+    <string name="label_see_instructor_profile">See Profile</string>
+    <string name="day">day</string>
+    <string name="toman">Toman</string>
+
+    <!-- signing Activity -->
+    <string name="btn_sign_email">Sign in with email</string>
+    <string name="btn_sign_google">Sign in with Google</string>
+    <string name="btn_create_account">New here?Create an account</string>
+
+    <!-- login with email fragment -->
+    <string name="username">email</string>
+    <string name="password">Password(6+ characters)</string>
+    <string name="login">Sign in</string>
+    <string name="forget_password">Forgot Password?</string>
+    <string name="input_error_email_invalid">email format is incorrect</string>
+    <string name="input_error_password_length">Password length must be at least 6 characters long</string>
+    <string name="required">required!</string>
+    <string name="not_register_yet">New here?Create an accoun</string>
+    <string name="no_connection_internet">There is no internet connection!</string>
+    <!-- success login show -->
+    <string name="welcome">Welcome</string>
+    <string name="caption_welcome">Ready to learn now!</string>
+    <!-- Register fragment -->
+    <string name="name_hint">Name</string>
+    <string name="btn_register">Sign Up</string>
+    <string name="btn_sign_up_google">Sign in with Google</string>
+    <!-- Account Fragment -->
+    <string name="txt_sign_out">Sign Out</string>
+    <string name="txt_sign_in">Login/Register</string>
+    <string name="txt_title_toolbar_account">Account</string>
+    <string name="label_become_instructor">Become an Instructor</string>
+    <string name="content_share_text_app">ParsClass has more than a thousand educational courses in the areas of programming, lifestyle, tuition and more. I recommend installing this educational app.</string>
+    <string name="toast_have_not_sd_card">Your mobile does not have any external memory cards!</string>
+    <string name="link_site">www.parsclass.com</string>
+    <string name="txt_content_dialog_sign_out">Are you sure to sign out?</string>
+    <string name="dialog_we_need_permistion_to_write_storage">We need to permission to download in memory card space.</string>
+    <string name="setting">setting</string>
+    <string name="download_in_sd_card">Download in SD Card</string>
+    <string name="share_parsclass">Share the ParsClass app</string>
+    <string name="view_privacy_policy">View Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="view_intellectual">View Intellectual Property Policy</string>
+    <string name="change_lang">Change language</string>
+
+    <!-- detail my course activity -->
+    <string name="title_tab_about_course">More</string>
+    <string name="title_tab_list_lecture">Lectures</string>
+    <string name="toast_download_is_running">The file is downloading...</string>
+    <!-- profile instructor fragment -->
+    <string name="see_more">More</string>
+    <string name="label_contact">Contact Info</string>
+    <string name="label_student">Student</string>
+    <string name="label_course">Course</string>
+    <string name="other_course_instructor">Other Courses Instructor</string>
+    <!-- subcategory fragment -->
+    <string name="browse_subcategory_label">SubCategories</string>
+    <string name="in">in</string>
+
+    <!-- ٍ ٍ Exo player -->
+
+    <string name="playback_channel_name">PlayBack</string>
+    <string name="download_channel_name">Download</string>
+
+    <string name="title_playback_speed_dialog">Playback Speed</string>
+    <string-array name="speed_playback">
+        <item>0.5X</item>
+        <item>0.75X</item>
+        <item>1.0X</item>
+        <item>1.25X</item>
+        <item>1.5X</item>
+        <item>1.75X</item>
+        <item>2.0X</item>
+    </string-array>
+    <string name="speed_5">0.5X</string>
+    <string name="speed_75">0.75X</string>
+    <string name="speed_1">1.0X</string>
+    <string name="speed_125">1.25X</string>
+    <string name="speed_15">1.5X</string>
+    <string name="speed_175">1.75X</string>
+    <string name="speed_2">2.0X</string>
+    <string name="error_unsupported_video">Media includes video tracks, but none are playable by this device</string>
+    <string name="error_unsupported_audio">Media includes audio tracks, but none are playable by this device</string>
+
+    <string name="download_start_error">Failed to start download</string>
+    <string name="label_btn_open_doc">Open Document</string>
+    <string name="exo_download_description">Download</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="try_again">try again</string>
+    <string name="txt_non_playable_notification">This lecture is an article.</string>
+    <string name="track_selection_title">Select tracks</string>
+    <string name="is_downloaded_media">This lecture already is downloaded.</string>
+    <string name="are_you_sure_download_media">Download this lecture?</string>
+    <string name="are_you_sure_remove_download_media">Remove this downloaded file?</string>
+    <string name="remove_download">Remove</string>
+
+
+    <!-- Comment Fragment -->
+    <string name="label_title_comment_fragment">Reviews</string>
+
+    <!-- fragment about course -->
+    <string name="about_course_label">About this Course</string>
+    <string name="share_course_label">Share this Course</string>
+    <string name="add_favorite_course_label">Add to Favorites</string>
+    <string name="resource_course_label">Resources</string>
+    <string name="title_share_text_course">Pars Class</string>
+    <string name="content_share_text_course">My dear friend, I enjoyed this course of parsclass. I recommend enrolling for this course.</string>
+    <!-- DownloadService -->
+    <string name="failed_doc_download">Error in Downloading</string>
+    <string name="download_completed">Article Download completed</string>
+
+    <!-- AboutCourse Activity -->
+    <string name="about_course_title_toolbar">About this Course</string>
+
+    <!-- favorite course fragment -->
+    <string name="favorite_course_title_toolbar">Favorite courses</string>
+
+    <!-- myCourse fragment-->
+    <string name="my_course_title_toolbar">My Course</string>
+    <string name="title_when_user_not_login1">Dear friend after login</string>
+    <string name="title_when_user_not_login2">Your courses will be kept here</string>
+    <string name="label_start_course">start</string>
+    <string name="computer">Computer</string>
+    <string name="leaerning_english">Teaching English</string>
+    <string name="art">Art</string>
+    <string name="lifeStyle">LifeStyle</string>
+    <string name="bussinus">business</string>
+    <string name="sport">Sport</string>
+    <string name="cooking">Cooking</string>
+    <string name="music">Music</string>
+
+    <!-- search fragment -->
+    <string name="search">search</string>
+    <string name="most_visited">Most visited</string>
+    <string name="best_selling">Best selling</string>
+    <string name="newest">Newest</string>
+    <string name="from_high_to_low_price">From High To Low Price</string>
+    <string name="from_low_to_high_price">From Low To High Price</string>
+    <string name="label_price_dialog_filter">Price</string>
+    <string name="label_category_dialog_filter">Category</string>
+    <string name="label_duration_dialog_filter">Duration</string>
+    <string name="first_period__dialog_filter">0-2 Hours</string>
+    <string name="two_period__dialog_filter">3-6 Hours</string>
+    <string name="three_period__dialog_filter">7-16 Hours</string>
+    <string name="four_period__dialog_filter">17+ Hours</string>
+    <string name="btn_apply_dialog_filter">Apply Filters</string>
+    <string name="btn_reset_dialog_filter">Reset</string>
+    <string name="label_title_dialog_sort">Sort by</string>
+
+    <!-- splash Activity -->
+    <string name="academy">Academy</string>
+
+</resources>

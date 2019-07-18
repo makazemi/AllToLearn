@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background_color"
+    tools:context=".view.ChooseSignFragment">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/logo_login" />
+        <Button
+            android:id="@+id/btnSignEmail"
+            style="@style/TextViewButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_edt"
+            android:background="@drawable/background_login_button"
+            android:text="@string/btn_sign_email"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/margin_edge"
+            android:layout_marginEnd="@dimen/margin_edge"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btnSignGoogle"
+        style="@style/TextViewButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_edt"
+        android:background="@drawable/background_login_button"
+        android:drawableEnd="@drawable/ic_google_sign"
+        android:gravity="center"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp"
+        android:text="@string/btn_sign_google"
+        android:layout_below="@+id/btnSignEmail"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/margin_edge"
+        android:layout_marginEnd="@dimen/margin_edge"
+        android:layout_marginTop="30dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/txtRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="40dp"
+        android:text="@string/btn_create_account"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"/>
+
+</RelativeLayout>
